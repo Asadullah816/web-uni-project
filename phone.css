@@ -12,6 +12,10 @@
         width: 100%;
     }
 
+    .feature-row {
+        justify-content: space-around;
+    }
+
     .feature-img {
         height: 100%;
     }
@@ -115,5 +119,24 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+}
+
+/* ============= Contact Page ================= */
+@media(max-width:767px) {
+    .contact-info h2 {
+        font-size: 40px;
+        font-weight: 700;
+        padding-right: 0rem;
+        text-align: center;
+    }
+
+    .contact-info p {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .contact-mini-card {
+        width: 100%;
     }
 }
